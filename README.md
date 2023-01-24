@@ -10,5 +10,5 @@ A dashboard that enables your help desk staff to view details for Amazon AppStre
 
 
 
-## Static website and Clodfront configuration
+## Static website and Cloudfront configuration
 Started off by creating a S3 bucket to store my objects, then made sure that my bucket name was a globally unique DNS-compliant name. Also verified that the region is supported for the project. 
