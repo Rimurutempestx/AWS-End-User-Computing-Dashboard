@@ -27,4 +27,4 @@ At last for the final part I created a SAML identity provider in the user pool. 
 
 
 ## Building a Serverless Backend
-To grant permissions to handle backend requests for the End User Computing (EUC) dashboard I created a custom IAM policy that grants all the needed permissions.
+To grant permissions to handle backend requests for the End User Computing (EUC) dashboard I created a custom IAM policy that grants all the needed permissions (see IAM policy permissions in the files section).
