@@ -1,0 +1,35 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "application-autoscaling:DescribeScalingActivities",
+                "appstream:DescribeFleets",                
+                "appstream:DescribeImages",
+                "appstream:DescribeSessions",
+                "appstream:DescribeStacks",
+                "appstream:ExpireSession",                
+                "appstream:ListAssociatedFleets",
+                "appstream:ListAssociatedStacks",
+                "logs:CreateLogGroup",
+                "logs:CreateLogStream",                
+                "logs:PutLogEvents",
+                "ses:SendEmail",
+                "s3:DeleteObject",
+                "s3:HeadBucket",
+                "s3:ListAllMyBuckets",   
+                "s3:ListBucket",                                            
+                "workspaces:DescribeWorkspaces",
+                "workspaces:DescribeWorkspacesConnectionStatus",                 
+                "workspaces:DescribeWorkspaceDirectories",
+                "workspaces:RebootWorkspaces",     
+                "workspaces:RebuildWorkspaces",                 
+                "workspaces:StartWorkspaces", 
+                "workspaces:StopWorkspaces"                                        
+            ],
+            "Resource": "*"
+        }
+    ]
+}
