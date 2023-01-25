@@ -23,3 +23,8 @@ Began by creating an Amazon Cognito user pool and making a note of the pool id. 
 For the second part of the workflow i started by enabling SSO and creating an AWS organization to manage the SSO access and user permissions across all the accounts. Then started by adding a user and the application to SSO. Created a new user and configured all the user details (ex: Username, password, email). I didn't created any groups though because i didn't exactly feel their was any reason. I then made sure the invite links went through to the specified emails and the invites were accepted. After all the invite links were accepted i then added a custom SAML 2.0 application and made a note of the URL and configured all the settings and destinations for the Application ACS URL and the Application SAML audience. For Maps to this string value or user attribute in AWS SSO I configured the value to ${user:email} and configured the format for attribute mapping and saved.
 
 At last for the final part I created a SAML identity provider in the user pool. Started by providing the metadata document endpoint URL and filled in everything for the provider name and identifiers. Then created the idp, added the SAML attribute and for user pool attribute chose email. Set up the Callback URL(s) and saved.
+
+
+
+## Building a Serverless Backend
+To grant permissions to handle backend requests for the End User Computing (EUC) dashboard I created a custom IAM policy that grants all the needed permissions.
