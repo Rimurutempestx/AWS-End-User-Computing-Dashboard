@@ -2,7 +2,7 @@
 Built a dashboard that enables your help desk staff to view details for Amazon AppStream 2.0 fleets and Amazon WorkSpaces directories and instances.
 
 ## Overview
-A dashboard that enables your help desk staff to view details for Amazon AppStream 2.0 fleets and Amazon WorkSpaces directories and instances. For both AppStream 2.0 and WorkSpaces, your staff can also use the dashboard to perform basic administrative tasks. For AppStream 2.0, they can monitor autoscaling activities and manage users’ streaming sessions. For WorkSpaces, they can send the registration code email to a user, or stop, start, restart, and restore a user’s WorkSpace. With this workflow, your teams don’t require access to the AppStream 2.0 console or WorkSpaces console, or cloud-based computing experience.
+A quick summary of a dashboard that enables your help desk staff to view details for Amazon AppStream 2.0 fleets and Amazon WorkSpaces directories and instances. For both AppStream 2.0 and WorkSpaces, your staff can also use the dashboard to perform basic administrative tasks. For AppStream 2.0, they can monitor autoscaling activities and manage users’ streaming sessions. For WorkSpaces, they can send the registration code email to a user, or stop, start, restart, and restore a user’s WorkSpace. With this workflow, your teams don’t require access to the AppStream 2.0 console or WorkSpaces console, or cloud-based computing experience.
 
 
 
@@ -28,3 +28,12 @@ At last for the final part I created a SAML identity provider in the user pool. 
 
 ## Building a Serverless Backend
 To grant permissions to handle backend requests for the End User Computing (EUC) dashboard I created a custom IAM policy that grants all the needed permissions (see IAM policy permissions and JSON policy in the files section). Next I began creating the IAM service role so that the Lambda functions can call the AWS services, then created the Lambda function itself.
+
+
+
+##Deploying RESTful API
+This part was pretty straightforward I simple just opened the API Gateway console and checked a few boxes and entered the API name, Description, and Endpoint type and created the API. Next it was time to configure the API Gateway for Lambda integration I started by creating my new authorizer for my user pool, then created my resource and verified my region code and enabled API Gateway CORS. Then got around to deploying the API.
+
+
+
+##Customize the FROM address used for email communications with your users
