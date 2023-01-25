@@ -36,4 +36,5 @@ This part was pretty straightforward I simple just opened the API Gateway consol
 
 
 
-## Customize the FROM address used for email communications with your users
+## Customize the FROM address used for email communications with users
+Amazon SES is an email service that enables you to send and receive email using your own email addresses and domains.
