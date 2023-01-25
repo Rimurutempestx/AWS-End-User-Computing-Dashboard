@@ -31,9 +31,9 @@ To grant permissions to handle backend requests for the End User Computing (EUC)
 
 
 
-##Deploying RESTful API
+## Deploying RESTful API
 This part was pretty straightforward I simple just opened the API Gateway console and checked a few boxes and entered the API name, Description, and Endpoint type and created the API. Next it was time to configure the API Gateway for Lambda integration I started by creating my new authorizer for my user pool, then created my resource and verified my region code and enabled API Gateway CORS. Then got around to deploying the API.
 
 
 
-##Customize the FROM address used for email communications with your users
+## Customize the FROM address used for email communications with your users
