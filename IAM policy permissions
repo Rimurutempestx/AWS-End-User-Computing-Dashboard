@@ -1,0 +1,28 @@
+  AWS Application Auto Scaling
+        o DescribeScalingActivities
+•     AppStream 2.0
+        o DescribeFleets 
+        o DescribeImages 
+        o DescribeSessions
+        o ExpireSession
+        o ListAssociatedFleets
+        o ListAssociatedStacks
+•     Amazon CloudWatch Logs
+        o CreateLogGroup
+        o CreateLogStream
+        o PutLogEvents
+•     Amazon SES
+        o SendEmail
+•     Amazon S3
+        o DeleteObject
+        o HeadBucket
+        o ListAllMyBuckets
+        o ListBucket
+•     WorkSpaces
+        o DescribeWorkspaces
+        o DescribeWorkspacesConnectionStatus
+        o DescribeWorkspaceDirectories
+        o RebootWorkspaces
+        o RebuildWorkspaces
+        o StartWorkspaces
+        o StopWorkspaces
