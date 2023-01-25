@@ -11,4 +11,5 @@ A dashboard that enables your help desk staff to view details for Amazon AppStre
 
 
 ## Static website and Cloudfront configuration
-Started off by creating a S3 bucket to store my objects, then made sure that my bucket name was a globally unique DNS-compliant name. Also verified that the region is supported for the project. 
+Started off by creating a S3 bucket to store my objects, then made sure that my bucket name was a globally unique DNS-compliant name. Also verified that the region is supported for the project. Configured the Origin Domain Name to my S3 bucket, proceeded to leave the Orgin Path empty and kept the default value for the origin ID. For the OAI i chose to just burn a little bit of time and create a new identity, then made sure to update my bucket policys. I also decided to leave the values for Origin Connection Attempts and Origin Connection Timeout as default and the Origin Custom Headers empty for now. Then for Default Cache Behavior Settings, for Viewer Protocol Policy, chose Redirect HTTP to HTTPS. Finally for the Default Root Object for the distribution settings i entered /index.html and created the Distribution.
+
