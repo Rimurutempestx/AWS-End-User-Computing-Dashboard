@@ -37,4 +37,4 @@ This part was pretty straightforward I simple just opened the API Gateway consol
 
 
 ## Customize the FROM address used for email communications with users
-Amazon SES is an email service that enables you to send and receive email using your own email addresses and domains.
+Amazon SES is an email service that enables you to send and receive email using your own email addresses and domains. I started by verifying a new email address that I can use for the service. After that I updated the config.js file and configured the calues for the file (locate the changed values in the file section). 
