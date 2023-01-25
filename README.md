@@ -6,6 +6,8 @@ A dashboard that enables your help desk staff to view details for Amazon AppStre
 
 
 
+
+
 ![image](https://user-images.githubusercontent.com/106786020/213949555-ebc030a6-5585-40f7-9814-0e2bb87504d6.jpeg)
 
 
