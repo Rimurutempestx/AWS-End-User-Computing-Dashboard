@@ -37,4 +37,9 @@ This part was pretty straightforward I simple just opened the API Gateway consol
 
 
 ## Customize the FROM address used for email communications with users
-Amazon SES is an email service that enables you to send and receive email using your own email addresses and domains. I started by verifying a new email address that I can use for the service. After that I updated the config.js file and configured the calues for the file (locate the changed values in the file section). Finally I finished off by uploading my website assets to my S3 bucket that i created at the beginning. I then tested everything and there was a hiccup or two but after some trial and error everything ran pretty smoothly, I had alot of fun doing this project because there were alot of services I had been wanting to use like SES but never got around to it, in the end it wasn't as hard as i thought it would be but still alot of fun.
+Amazon SES is an email service that enables you to send and receive email using your own email addresses and domains. I started by verifying a new email address that I can use for the service. After that I updated the config.js file and configured the calues for the file (locate the changed values in the file section). Finally I finished off by uploading my website assets to my S3 bucket that i created at the beginning. 
+
+
+
+## Conclusion
+I then tested everything and there was a hiccup or two but after some trial and error everything ran pretty smoothly, I had alot of fun doing this project because there were alot of services I had been wanting to use like SES but never got around to it, in the end it wasn't as hard as i thought it would be but still alot of fun.
